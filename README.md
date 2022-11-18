@@ -23,3 +23,6 @@ We repeat this process by growing the radius, with increment 1 pixel length, unt
 selected as the output.
 
 Given a n pixels by n pixels mode, the algorithm's runtime is O(n^3). In the lab implementation, the user may "crop" the image before grading to speed up.
+
+In this demonstrating version, you may try the algorithm on the attached 4 images (please remember to change the directories in the code before running it). The scores
+are consistent with human's intuition. That is, dense and bright laser spots with little external noise generally get higher scores.
